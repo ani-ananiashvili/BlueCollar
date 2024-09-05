@@ -198,8 +198,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: #1C2752;
-  ;
+  color: #1c2752;
 }
 
 .mechanic-man-text h3 {
@@ -258,5 +257,146 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.78px;
-  color: #7E7E7E;
+  color: #7e7e7e;
 }
+
+/* commercial section */
+
+.mainServiceSection {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffb342;
+  height: 750px;
+  padding-top: 127px;
+}
+
+.commercialTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 723px;
+  gap: 32px;
+}
+
+.commercialTxt h2 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 56.48px;
+  color: #1c2752;
+}
+
+.commercialTxt p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #1c2752;
+  text-align: center;
+}
+
+.commercial-spans {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  width: 221px;
+  height: 65px;
+  color: #1c2752;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.commercial {
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  padding: 15px 31px;
+  gap: 7px;
+}
+
+.residential-industrial {
+  border: 1px solid #1c2752;
+  display: flex;
+  align-items: center;
+  padding: 15px 31px;
+  gap: 7px;
+}
+
+.arch-section {
+  position: absolute;
+  bottom: -170px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 509px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 59px 66px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.arch-section-txt {
+  width: 562px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.arch-section-txt h4 {
+  width: 257px;
+  height: 45px;
+  padding: 8px 16px 7px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f4f4f4;
+  color: #1c2752;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+}
+
+.arch-section-txt h2 {
+  font-family: Mulish;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 43.93px;
+  text-align: left;
+  color: #1c2752;
+}
+
+.arch-section-txt p,
+.arch-section-txt span {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+  color: #7e7e7e;
+}
+
+.arch-section-txt a {
+  width: 190px;
+  height: 65px;
+  padding: 20px 43px 21px 43px;
+  background-color: #ffb342;
+  text-align: center;
+  align-items: center;
+  color: #1c2752;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+
+
