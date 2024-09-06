@@ -399,4 +399,96 @@
   line-height: 24.2px;
 }
 
+/* our services section */
 
+.our-services-section {
+  background-color: #f4f4f4;
+  height: 1329px;
+}
+
+.our-services-txt {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 18px;
+  align-items: center;
+  width: 687px;
+  margin: 0 auto;
+}
+
+.little-our-services {
+  background-color: #ffffff;
+  width: 173px;
+  height: 45px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: #1c2752;
+}
+
+.our-services-txt h2 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 56.48px;
+  color: #1c2752;
+}
+
+.our-services-txt p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #7e7e7e;
+}
+
+.services-all-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1199px;
+  margin: 0 auto;
+  gap: 25px;
+  margin-top: 37px;
+}
+
+.services-each-div {
+  width: 383px;
+  height: 322px;
+  padding: 47px 37px 47px 36px;
+  background-color: #1c2752;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services-each-div h3 {
+  font-family: Mulish;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31.38px;
+  color: #ffb342;
+  margin: 20px 0px 11px;
+}
+
+.services-each-div p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #d2d2d2;
+  margin-bottom: 30px;
+}
+
+.services-each-div a {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  color: #ffff;
+}
