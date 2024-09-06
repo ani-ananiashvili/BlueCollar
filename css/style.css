@@ -618,3 +618,69 @@
   line-height: 21.78px;
   color: #7e7e7e;
 }
+
+/* our-recent-work-section */
+
+.our-recent-work-section {
+  height: 1134px;
+  background-color: #1c2752;
+}
+
+.the-gallery {
+  width: 162.16px;
+  height: 45px;
+  padding: 8px 16px 7px 16px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+}
+
+.our-recent-work-section h2 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 56.48px;
+  text-align: center;
+  color: #ffff;
+  margin: 9px 0px 60px;
+}
+
+.recent-work-txt {
+  padding-top: 169px;
+}
+
+.all-image-man-div {
+  display: flex;
+  gap: 30px;
+  width: 1866px;
+  margin: 0 auto;
+}
+
+.image-man-div {
+  width: 444px;
+  height: 626px;
+  padding: 21px 22px;
+  gap: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.image-man-div h4 {
+  font-family: Mulish;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31.38px;
+  color: #1c2752;
+  margin: 23px 0px 7px;
+}
+
+.image-man-div span {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #7e7e7e;
+}
