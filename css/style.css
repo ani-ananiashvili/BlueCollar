@@ -492,3 +492,129 @@
   line-height: 21.78px;
   color: #ffff;
 }
+
+/* why-choose-us section */
+
+.why-choose-us-section {
+  height: 921px;
+  position: relative;
+  display: flex;
+  gap: 70px;
+  opacity: 1;
+}
+
+.image-container {
+  position: relative;
+}
+
+.why-us-image-txt {
+  position: absolute;
+  top: 115px;
+  left: 110px;
+  width: 630px;
+  background-color: #1c2752b2;
+  padding: 182px 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  opacity: 1;
+  border: 1px solid #000000;
+}
+
+.image-column-txt {
+  display: flex;
+  width: 304px;
+  height: 65px;
+  gap: 10px;
+  align-items: center;
+}
+
+.image-column-txt span {
+  background-color: #ffb342;
+  width: 96px;
+  height: 65px;
+  font-family: Mulish;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 31.38px;
+  color: #1c2752;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-column-txt h4 {
+  border: 1px solid #ffffff;
+  width: 304px;
+  height: 65px;
+  padding: 17px 22px;
+  gap: 10px;
+  opacity: 0px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.right-text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 560px;
+}
+
+.little-why-us {
+  width: 200.16px;
+  height: 45px;
+  padding: 8px 16px 7px 16px;
+  gap: 10px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: #1c2752;
+}
+
+.right-text-column h2 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 56.48px;
+  color: #1c2752;
+  width: 508px;
+  margin: 20px 0px 22px;
+}
+
+.right-text-column p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #7e7e7e;
+  margin-bottom: 44px;
+}
+
+.experience-div {
+  display: flex;
+  gap: 13px;
+}
+
+.experience-div h3 {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.1px;
+  color: #1c2752;
+  margin-bottom: 5px;
+}
+
+.experience-div p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #7e7e7e;
+}
