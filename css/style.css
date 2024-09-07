@@ -976,3 +976,201 @@
   display: flex;
   gap: 94px;
 }
+
+/* price section */
+
+.price-section {
+  background-color: #f4f4f4;
+
+  height: 1283px;
+  padding: 148px 360px;
+}
+
+.price-titles {
+  display: flex;
+  gap: 144px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.price-plan {
+  width: 186.16px;
+  height: 45px;
+  gap: 10px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: #1c2752;
+  margin-bottom: 9px;
+}
+
+.price-section h2 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 56.48px;
+  color: #1c2752;
+  width: 477px;
+}
+
+.price-section p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.01px;
+  color: #7e7e7e;
+  width: 579px;
+}
+
+.each-price-div {
+  width: 384px;
+  height: 596px;
+  padding: 40px;
+  background-color: #ffff;
+}
+
+.price-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 56px;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 32px;
+  margin-bottom: 16px;
+}
+
+.price-offer h4 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  color: #1c2752;
+}
+
+.price-offer h3 {
+  font-family: Mulish;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 37.65px;
+  color: #1c2752;
+}
+
+.price-offer span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #7e7e7e;
+}
+
+.offer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-list span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 41.6px;
+  color: #7e7e7e;
+}
+
+.offer-list div {
+  display: flex;
+  align-items: center;
+  gap: 12.04px;
+}
+
+.each-price-div h5 {
+  background-color: #ffb342;
+  width: 302px;
+  height: 65px;
+  padding: 20px 108px;
+  border: 1.5px 0px 0px 0px;
+  margin-top: 44px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  color: #1c2752;
+  cursor: pointer;
+}
+
+.all-price-div {
+  display: flex;
+  gap: 24px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 74px;
+}
+
+.second-div p {
+  width: 100px;
+  height: 30px;
+  background-color: #ffb342;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #1c2752;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.second-buy-now {
+  border: 1.5px solid #ffb342;
+  width: 302px;
+  height: 65px;
+  padding: 20px 108px;
+  border: 1.5px 0px 0px 0px;
+  margin-top: 44px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  color: #1c2752;
+  cursor: pointer;
+}
+
+.bottom-done {
+  width: 1198px;
+  margin: 0 auto;
+  gap: 82px;
+  display: flex;
+}
+
+.each-bottom-done {
+  display: flex;
+  margin: 74px 0px 148px;
+}
+
+.bottom-done span {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.1px;
+  color: #1c2752;
+}
+
+.bottom-done p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #7e7e7e;
+  width: 513px;
+}
+
+.bottom-p {
+  margin-left: 13px;
+}
