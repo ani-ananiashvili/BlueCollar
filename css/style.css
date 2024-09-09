@@ -2,7 +2,7 @@
 
 .infoDiv {
   background-color: #f2f2f2;
-  padding: 20px 360px;
+  padding: 20px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,13 +22,13 @@
   align-items: center;
 }
 
-/* header 2 seciton */
+/* header 2 section */
 
 .header2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 360px;
+  padding: 20px 100px;
 }
 
 .yellowInfoDiv {
@@ -67,17 +67,17 @@
   font-weight: 400;
   line-height: 21.78px;
   color: #7e7e7e;
+  cursor: pointer;
 }
 
 .mailInfo {
   margin-right: 68px;
 }
 
-/* navigation + cover section */
+/* navigation & cover section */
 
 .coverSection {
   position: relative;
-  width: 100%;
   margin-top: 65px;
 }
 
@@ -134,15 +134,15 @@
 .headerSection {
   position: absolute;
   top: -40px;
-  left: 220px;
-  width: 1199px;
+  left: 200px;
+  width: 1100px;
   height: 93px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 3;
   background-color: #ffb342;
   padding: 14px;
+  z-index: 3;
 }
 
 .headerSection nav ul {
@@ -161,12 +161,12 @@
 .navQ a {
   color: #ffff;
   background-color: #1c2752;
-  padding: 20px 22px 21px 22px;
+  padding: 20px 22px;
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
   line-height: 24.2px;
-  text-align: left;
+  margin-left: 200px;
 }
 
 /* mechanic-man-section */
@@ -175,7 +175,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 150px;
+  margin: 150px 0px 150px;
   gap: 60px;
 }
 
@@ -496,11 +496,13 @@
 /* why-choose-us section */
 
 .why-choose-us-section {
-  height: 921px;
   position: relative;
   display: flex;
   gap: 70px;
-  opacity: 1;
+  width: 100%;
+  align-items: center;
+  max-width: 1530px;
+  margin: 0 auto;
 }
 
 .image-container {
@@ -512,14 +514,15 @@
   top: 115px;
   left: 110px;
   width: 630px;
-  background-color: #1c2752b2;
+  background-color: #1c2752;
   padding: 182px 115px;
   display: flex;
   flex-direction: column;
   gap: 23px;
-  opacity: 1;
   border: 1px solid #000000;
+  opacity: 0.9;
 }
+
 
 .image-column-txt {
   display: flex;
@@ -549,7 +552,6 @@
   height: 65px;
   padding: 17px 22px;
   gap: 10px;
-  opacity: 0px;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -654,18 +656,23 @@
 
 .all-image-man-div {
   display: flex;
+  justify-content: center;
   gap: 30px;
-  width: 1866px;
-  margin: 0 auto;
+  padding: 0px 20px;
 }
 
 .image-man-div {
-  width: 444px;
-  height: 626px;
+  width: 350px;
+  height: 500px;
   padding: 21px 22px;
   gap: 10px;
   background-color: #ffffff;
   text-align: center;
+}
+
+.image-man-div img {
+  width: 300px;
+  height: 350px;
 }
 
 .image-man-div h4 {
@@ -984,7 +991,7 @@
   background-color: #f4f4f4;
 
   height: 1283px;
-  padding: 148px 360px;
+  padding: 148px 0px;
 }
 
 .price-titles {
@@ -1094,7 +1101,7 @@
   width: 302px;
   height: 65px;
   padding: 20px 108px;
-  border: 1.5px 0px 0px 0px;
+  border: 1.5px;
   margin-top: 44px;
   font-family: Inter;
   font-size: 20px;
@@ -1133,7 +1140,7 @@
   width: 302px;
   height: 65px;
   padding: 20px 108px;
-  border: 1.5px 0px 0px 0px;
+  border: 1.5px;
   margin-top: 44px;
   font-family: Inter;
   font-size: 20px;
@@ -1419,7 +1426,6 @@ footer {
 }
 
 .footer-main {
-  width: 1198px;
   margin: 0 auto;
   margin-top: 56px;
   display: flex;
@@ -1459,10 +1465,10 @@ footer {
 }
 
 .explore-links {
-  gap: 66px;
+  gap: 100px;
   height: 224px;
   border-right: 1px solid #4b557d;
-  padding: 0px 66px;
+  padding: 0px 90px;
 }
 
 .explore-links-pages h3 {
